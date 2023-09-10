@@ -28,7 +28,7 @@ public class Animal {
         tekli parent a Single inheritance derler, java Multiple inhertince i desteklemez, single inheritance kullanir.
    6) Apartman seklindeki inheritance yapisina " Multilevel inheritance " denir
    ve java  " Multilevel inheritance " i destekler
-   7) Object class her classin parent idir. java da object class hari her classin parenti vardir
+   7) Object class her classin parent idir. java da object class hariç her classin parenti vardir
    8) java da parent tan child a olan ilisikilere HAS-A Relationship denir
       java da chlid tan parent a olan ilisikilere IS-A Relationship denir
    9) java da her classin bir tane default constructor i vardir ama bu default constructor classin icinde gorunmez
