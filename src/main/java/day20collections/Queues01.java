@@ -25,7 +25,7 @@ public class Queues01 {
         //   System.out.println(depo.element());//Exception
         System.out.println(depo.peek());//null
 
-        Queue<String> wareHouse= new PriorityQueue<>();
+        Queue<String> wareHouse = new PriorityQueue<>();
         wareHouse.add("Milk");
         wareHouse.add("Meat");
         wareHouse.add("Egg");
@@ -34,6 +34,13 @@ public class Queues01 {
         System.out.println(wareHouse);//[Egg, Milk, Meat, Orange, Tomatoes]
 
         //Double ended queu ==> iki uclu queue
-        Deque<String> d=new LinkedList<>();
+        Deque<String> d = new LinkedList<>();
+        d.add("Milk");
+        d.add("Meat");
+        d.add("Egg");
+        d.add("Orange");
+        d.add("Tomatoes");
+        System.out.println(d);//[Milk, Meat, Egg, Orange, Tomatoes]
+
     }
 }
